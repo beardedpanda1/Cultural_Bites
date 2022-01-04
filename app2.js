@@ -107,7 +107,7 @@ const urlY = `https://www.themealdb.com/api/json/v1/1/search.php?f=y`
 const urlZ = `https://www.themealdb.com/api/json/v1/1/search.php?f=z`
 const urlRandom = `https://www.themealdb.com/api/json/v1/1/random.php`
 
-getRecipe = (x) => { 
+const getRecipe = (x) => { 
         fetch(x)
             .then((response) => response.json())
             .then((data) => {   
